@@ -1,0 +1,30 @@
+
+.TodoForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TodoForm .text-input {
+    border-radius: 10000px;
+    border: 1px solid #999;
+    height: 40px;
+    flex: 1;
+    font-size: 18px;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.TodoForm .button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    background-color: #99f;
+    cursor: pointer;
+}

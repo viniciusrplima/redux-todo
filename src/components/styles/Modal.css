@@ -1,0 +1,20 @@
+.Modal {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .2);
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardModal {
+    padding: 20px;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
